@@ -1,5 +1,11 @@
 {
-  "domain": "{DOMAIN}",
-  "clientId": "{CLIENT_ID}",
-  "audience": "{API_IDENTIFIER}"
+  "domain": "{idp_domain}",
+  "clientId": "{idp_clientId}",
+  "audience": "{idp_aud}",
+  "orgId": "{idp_org}",
+  "serviceProviderDomain": "{sp_domain}",
+  "serviceProviderClientId": "{sp_client_id}",
+  "serviceProviderAudience": "{sp_aud}",
+  "serviceProviderOrgId": "{sp_org}",
+  "serviceProviderConnection": "{federation_connection_name}"
 }

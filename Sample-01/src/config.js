@@ -16,5 +16,11 @@ export function getConfig() {
     domain: configJson.domain,
     clientId: configJson.clientId,
     ...(audience ? { audience } : null),
+    orgId: configJson.orgId,
+    serviceProviderDomain: configJson.serviceProviderDomain,
+    serviceProviderClientId: configJson.serviceProviderClientId,
+    serviceProviderAudience: configJson.serviceProviderAudience,
+    serviceProviderOrgId: configJson.serviceProviderOrgId,
+    serviceProviderConnection: configJson.serviceProviderConnection,
   };
 }
